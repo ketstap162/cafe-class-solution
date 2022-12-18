@@ -20,7 +20,7 @@ class Cafe(Building):
         self.seats_at_table = seats_at_table
 
     @property
-    def client_capacity(self):
+    def clients_capacity(self):
         return self.tables * self.seats_at_table
 
 ```
